@@ -1,0 +1,234 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    background: url(../images/concrete_seamless.png) repeat;
+    width: 100%;
+    padding-bottom: 140px;
+
+}
+
+.headerContainer {
+    
+    background-color: white;
+    border-bottom: 2px solid #ccc;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 100%;
+
+}
+
+header {
+    width: 960px;
+    margin: 0 auto;
+        
+}
+
+h1 {
+    color: #fff;
+    background-color: #4aaaa5;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    float: left;
+    padding: 25px;
+    margin-top: 8px;
+}
+
+ul {
+    float: right;
+    padding-top: 30px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    color: #888;
+    border-right: 1px solid #ccc;
+    padding: 0 15px;
+    text-decoration: none;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+li a:hover {
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+.lastButton {
+    border-right: none;
+    padding-right: 0;
+}
+
+.bodyContainer {
+    clear: both;
+    overflow-y: auto;
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 40px;
+        
+}
+
+section {
+    float: left;
+    width: 650px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+
+section p {
+    padding: 10px 30px;
+    line-height: 2em;
+    color: #777;
+    font-size: 18px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.profileImage {
+    float: left;
+    margin: 20px 30px 0 30px;
+    padding-bottom: 0;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-weight: bold;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin: 28px 30px 15px 30px;
+    padding-bottom: 32px;
+    border-bottom: 2px solid #ccc;
+}
+
+section h2 {
+    
+    font-size: 32px;
+    
+}
+
+
+
+aside {
+    float: right;
+    width: 270px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 0 0 40px 0;
+    
+}
+
+aside h2 {
+    
+    font-size: 24px;
+    border-bottom: 1px solid #ccc;
+    margin: 30px;
+    padding-bottom: 20px;   
+}
+
+aside img {
+    float: left;
+    margin: 0 10px 0 0;
+    width: 63px;
+}
+
+.lastImg {
+    margin-right: 0;
+}
+
+.contactImg {
+    margin: 0 30px;
+}
+
+.portfolioImage {
+    margin: 30px;
+    position: relative;
+}
+
+.portfolioImage img {
+    width: 265px;
+}
+
+h3 {
+    background-color: #4aaaa5;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px 0;
+    text-align: center;
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+}
+
+h3:hover {
+    background-color: #b0c4de;
+}
+
+.fltlft {
+    float: left;
+}
+
+.fltrt {
+    float: right;
+}
+
+.footer {
+    clear: both;
+    background-color: #666;
+    border-top: 10px solid #4aaaa5;
+    padding: 40px 0;
+    text-align: center;
+    color: #999;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 12px;
+    
+    
+}
+
+form {
+    margin: 30px 30px 30px 30px;
+    padding-right: 15px;
+    font-family: "Arial";
+    font-size: 18px;
+    color: #777;
+
+}
+
+input[type="text"] {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 2.1em;
+    padding-left: 10px;
+    color: #777;
+    width: 100%;
+}
+
+textarea {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    padding-right: 10px;
+}
+
+input[type="submit"] {
+    background-color: #4aaaa5;
+    display: inline;
+    padding: 10px 30px;
+    color: #fff;
+    font-family: "Arial";
+    font-size: 20px;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background-color: #b0c4de;
+}
